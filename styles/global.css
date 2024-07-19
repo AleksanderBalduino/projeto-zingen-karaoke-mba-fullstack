@@ -29,6 +29,11 @@
     --font-size-lg: 1.25rem;
     --font-size-xl: 1.5rem;
     --font-size-2xl: 2.5rem;
+
+    --px-lg: 1.5rem;
+    --py-base: 1rem;
+    --py-lg: 1.5rem;
+    --py-xl: 3rem;
 }
 
 html {
@@ -76,5 +81,10 @@ ul[role="list"] {
         --font-size-lg: 2rem;
         --font-size-xl: 3rem;
         --font-size-2xl: 4rem;
+
+        --px-lg: 2rem;
+        --py-base: 1.5rem;
+        --py-lg: 2.5rem;
+        --py-xl: 5rem;
     }
 }
