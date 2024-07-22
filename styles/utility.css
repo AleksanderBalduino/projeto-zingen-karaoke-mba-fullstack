@@ -19,6 +19,9 @@
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
     margin-inline: auto;
     border: solid violet;
+
+    /* max-width: var(--max-width) */
+    /* width: calc(100% - var(--px-lg) * 2) */
 }
 
 .desktop-only {
@@ -28,6 +31,18 @@
 .even-columns {
     display: grid;
     gap: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.grid {
+    display: grid;
 }
 
 @media (width >= 80em) {
