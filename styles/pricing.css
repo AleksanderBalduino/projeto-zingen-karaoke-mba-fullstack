@@ -1,7 +1,7 @@
 #pricing {
     --font-size-price: 2rem;
 
-    & .section-header {
+    & .header-section {
         text-align: center;
     }
 
@@ -88,7 +88,7 @@
     @media (width >= 80em) {
         --font-size-price: 2.5rem;
 
-        & .section-header {
+        & .header-section {
             max-width: 50rem;
             margin-inline: auto;
         }
