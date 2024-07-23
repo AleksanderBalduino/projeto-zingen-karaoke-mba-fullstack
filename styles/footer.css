@@ -27,9 +27,10 @@ footer {
 
     & .bottom {
         flex-wrap: wrap;
+        justify-content: center;
 
         & > div {
-            margin-right: auto;
+            margin: auto;
         }
 
         & span {
@@ -52,6 +53,13 @@ footer {
                 & ul {
                     width: 14rem;
                 }
+            }
+        }
+
+        & .bottom {    
+            & > div {
+                margin: initial;
+                margin-right: auto;
             }
         }
     }
